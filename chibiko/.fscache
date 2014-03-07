@@ -1,0 +1,28 @@
+::res://::1393303002
+background.jpg::ImageTexture::1392304257::
+bullet.gd::GDScript::1392985236::
+bullet.png::ImageTexture::1387380421::
+bullet.xml::PackedScene::1392982762::
+hello world.gd::GDScript::1393301434::
+hello world.scn::PackedScene::1392220776::
+icon.png::ImageTexture::1392220337::
+new_rayshape2d.xml::RayShape2D::1392307298::
+osb_left.png::ImageTexture::1387380421::
+osb_right.png::ImageTexture::1387380422::
+parallax_bg.xml::PackedScene::1392973820::
+player.gd::GDScript::1393303002::
+player.xml::PackedScene::1393302925::
+scene.xml::PackedScene::1393223369::
+scroll_bg_cloud_1.png::ImageTexture::1387380422::
+scroll_bg_cloud_2.png::ImageTexture::1387380422::
+scroll_bg_cloud_3.png::ImageTexture::1387380422::
+scroll_bg_fg_1.png::ImageTexture::1387380421::
+scroll_bg_fg_2.png::ImageTexture::1387380421::
+scroll_bg_sky.png::ImageTexture::1387380422::
+source.png::ImageTexture::1392975224::
+source.tex::ImageTexture::1392978988::texture_2d<>../../../../../../../../home/chibiko/Dropbox/Public/source.png<>569c463c34c098073f9608bb8ac3ff6e<>1392979003
+spinpause.gd::GDScript::1393303002::
+sword.png::ImageTexture::1392973324::
+tiles_demo.png::ImageTexture::1387380421::
+tileset.xml::TileSet::1387380421::
+tileset_edit.xml::PackedScene::1387380422::

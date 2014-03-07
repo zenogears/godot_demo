@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="5" version="1.0" version_name="Godot Engine v1.0.3917-beta1">
+	<ext_resource path="res://player.*" type="PackedScene"></ext_resource>
+	<ext_resource path="res://spinpause.*" type="Script"></ext_resource>
+	<ext_resource path="res://tileset.*" type="TileSet"></ext_resource>
+	<ext_resource path="res://parallax_bg.*" type="PackedScene"></ext_resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "names" </string>
+			<string_array  len="22">
+				<string> "scene" </string>
+				<string> "Node" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "TileMap" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/on_top" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "cell_size" </string>
+				<string> "quadrant_size" </string>
+				<string> "tile_set" </string>
+				<string> "tile_data" </string>
+				<string> "parallax_bg" </string>
+				<string> "ParallaxBackground" </string>
+				<string> "scroll/base_scale" </string>
+				<string> "player" </string>
+				<string> "RigidBody2D" </string>
+				<string> "mass" </string>
+			</string_array>
+			<string> "version" </string>
+			<int> 1 </int>
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "node_count" </string>
+			<int> 4 </int>
+			<string> "variants" </string>
+			<array  len="17" shared="false">
+				<resource  resource_type="Script" path="res://spinpause.*">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 1 </int>
+							<string> "sources" </string>
+							<array  len="4" shared="false">
+								<string> "res://hello world.gd" </string>
+								<string> "res://player.gd" </string>
+								<string> "res://spinpause.gd" </string>
+								<string> "res://bullet.gd" </string>
+							</array>
+						</dictionary>
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "pixel_snap" </string>
+							<bool> False </bool>
+							<string> "zoom" </string>
+							<real> 0.540361 </real>
+							<string> "ofs" </string>
+							<vector2> -832, -602.502 </vector2>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+							</array>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+				</dictionary>
+				<bool> True </bool>
+				<real> 1 </real>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<vector2> 1, 1 </vector2>
+				<int> 64 </int>
+				<int> 16 </int>
+				<resource  resource_type="TileSet" path="res://tileset.*">  </resource>
+				<int_array  len="370"> 					65537, 9, 65552, 9, 65556, 536870921, 131073, 8, 131088, 8, 131092, 536870919, 196609, 7, 196624, 7, 196628, 536870920, 262144, 0, 262145, 6, 262146, 12, 262159, 536870924, 262160, 6, 262161, 0, 262162, 0, 262163, 0, 262164, 6, 262165, 12, 327679, 536870913, 327680, 10, 327681, 10, 327683, 12, 327694, 536870924, 327696, 10, 327697, 10, 327698, 10, 327699, 10, 327700, 10, 327702, 12, 393215, 536870914, 393216, 10, 393217, 10, 393218, 10, 393220, 12, 393224, 9, 393229, 536870924, 393231, 10, 393232, 10, 393233, 10, 393234, 10, 393235, 10, 393236, 10, 393237, 10, 393239, 0, 393240, 0, 393241, 0, 393242, 0, 393243, 0, 393244, 0, 393245, 0, 393246, 0, 393247, 0, 393248, 1, 458751, 536870914, 458752, 10, 458753, 10, 458754, 10, 458755, 10, 458757, 5, 458758, 5, 458759, 5, 458760, 5, 458761, 5, 458762, 5, 458763, 5, 458764, 5, 458766, 10, 458767, 10, 458768, 10, 458769, 10, 458770, 10, 458771, 10, 458772, 10, 458773, 10, 458774, 10, 458775, 10, 458776, 10, 458777, 11, 458778, 11, 458779, 11, 458780, 11, 458781, 10, 458782, 10, 458783, 10, 458784, 2, 524287, 536870914, 524288, 10, 524289, 10, 524290, 10, 524291, 10, 524292, 10, 524293, 10, 524294, 10, 524295, 10, 524296, 10, 524297, 10, 524298, 10, 524299, 10, 524300, 10, 524301, 10, 524302, 10, 524303, 10, 524304, 10, 524305, 10, 524306, 10, 524307, 10, 524308, 10, 524309, 10, 524310, 10, 524311, 10, 524312, 2, 524317, 536870914, 524318, 10, 524319, 10, 524320, 2, 589823, 536870914, 589824, 10, 589825, 10, 589826, 10, 589827, 10, 589828, 10, 589829, 10, 589830, 10, 589831, 10, 589832, 10, 589833, 10, 589834, 10, 589835, 10, 589836, 10, 589837, 10, 589838, 10, 589839, 10, 589840, 10, 589841, 10, 589842, 10, 589843, 10, 589844, 10, 589845, 10, 589846, 10, 589847, 10, 589848, 4, 589849, 5, 589850, 5, 589851, 5, 589852, 5, 589853, 10, 589854, 10, 589855, 10, 589856, 2, 655359, 536870914, 655360, 11, 655361, 11, 655362, 11, 655363, 11, 655364, 11, 655365, 11, 655366, 11, 655367, 11, 655368, 11, 655369, 11, 655370, 11, 655371, 11, 655372, 11, 655373, 11, 655374, 11, 655375, 11, 655376, 11, 655377, 11, 655378, 11, 655379, 11, 655380, 11, 655381, 11, 655382, 11, 655383, 11, 655384, 11, 655385, 11, 655386, 11, 655387, 11, 655388, 11, 655389, 11, 655390, 11, 655391, 11, 655392, 13, 720895, 536870925 </int_array>
+				<resource  resource_type="PackedScene" path="res://parallax_bg.*">  </resource>
+				<vector2> 0.7, 0 </vector2>
+				<resource  resource_type="PackedScene" path="res://player.*">  </resource>
+				<vector2> 447.424, 90.106 </vector2>
+				<vector2> 1.0269, 1.18407 </vector2>
+				<real> 3 </real>
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="62"> 				-1, -1, 1, 0, -1, 2, 2, 0, 3, 1, 0, 0, 0, 4, 4, -1, 11, 5, 2, 6, 3, 7, 3, 8, 2, 9, 4, 10, 5, 11, 6, 12, 7, 13, 8, 14, 9, 15, 10, 0, 0, 0, 17, 16, 11, 1, 18, 12, 0, 0, 0, 20, 19, 13, 3, 9, 14, 11, 15, 21, 16, 0 </int_array>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
