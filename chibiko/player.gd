@@ -49,8 +49,8 @@ var shoot_time=1e20
 var bullettime = 1
 var bullet = preload("res://bullet.xml")
 var sword_time=1e20
-var MAX_SHOOT_POSE_TIME = 0.3
-var MAX_SWORD_POSE_TIME = 0.3
+var MAX_SHOOT_POSE_TIME = 0.9
+var MAX_SWORD_POSE_TIME = 0.6
 
 var floor_h_velocity=0.0
 #var enemy
@@ -88,7 +88,7 @@ func _integrate_forces(s):
 			floor_index=x
 
 ##Shooting
-	if (atack_2 and not shooting and found_floor==true and move_left==0 and move_right==0):
+	if (atack_2 and not shooting and found_floor==true and move_left==0 and move_right==0 and not atack_1):
 		shoot_time=0
 		var bi = bullet.instance()
 		var ss
@@ -117,6 +117,19 @@ func _integrate_forces(s):
 		shoot_time+=step
 	
 	shooting = atack_2
+
+
+
+##Swording
+	if (atack_1 and not swording and found_floor==true and move_left==0 and move_right==0 and not atack_2):
+		sword_time=0
+
+	else:
+		sword_time+=step
+	
+	swording = atack_2
+
+
 
 
 	if (found_floor):
@@ -170,7 +183,9 @@ func _integrate_forces(s):
 			new_anim="jumping"	
 		elif (abs(lv.x)<0.1):
 			if (shoot_time<MAX_SHOOT_POSE_TIME):	
-				new_anim="idle_weapon"
+				new_anim="atack_1"
+			elif (sword_time<MAX_SWORD_POSE_TIME):
+				new_anim="atack_2"
 			else:
 				new_anim="idle"
 		else:

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="14" version="1.0" version_name="Godot Engine v1.0.3917-beta1">
+<resource_file type="PackedScene" subresource_count="15" version="1.0" version_name="Godot Engine v1.0.3917-beta1">
+	<ext_resource path="res://player.*" type="Script"></ext_resource>
 	<ext_resource path="res://osb_left.*" type="Texture"></ext_resource>
+	<ext_resource path="res://source.*" type="Texture"></ext_resource>
 	<ext_resource path="res://osb_right.*" type="Texture"></ext_resource>
 	<ext_resource path="res://bullet.*" type="Texture"></ext_resource>
-	<ext_resource path="res://player.*" type="Script"></ext_resource>
-	<ext_resource path="res://source.*" type="Texture"></ext_resource>
 	<resource type="RayShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
 		<real name="length"> 20 </real>
@@ -20,12 +20,34 @@
 		<real name="length"> 0.7 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "sprite:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "transitions" </string>
+			<real_array  len="8"> 				1, 1, 1, 1, 1, 1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="8" shared="false">
+				<int> 40 </int>
+				<int> 41 </int>
+				<int> 42 </int>
+				<int> 43 </int>
+				<int> 44 </int>
+				<int> 45 </int>
+				<int> 41 </int>
+				<int> 40 </int>
+			</array>
+			<string> "times" </string>
+			<real_array  len="8"> 				0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7 </real_array>
+		</dictionary>
 
 	</resource>
 	<resource type="Animation" path="local://4">
-		<string name="resource/name"> "idle_weapon" </string>
+		<string name="resource/name"> "atack_2" </string>
 		<real name="length"> 0.7 </real>
-		<bool name="loop"> True </bool>
+		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
 		<node_path name="tracks/0/path"> "sprite:frame" </node_path>
@@ -34,16 +56,15 @@
 			<string> "cont" </string>
 			<bool> True </bool>
 			<string> "transitions" </string>
-			<real_array  len="4"> 				1, 1, 1, 1 </real_array>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
 			<string> "values" </string>
-			<array  len="4" shared="false">
-				<int> 40 </int>
-				<int> 45 </int>
-				<int> 41 </int>
-				<int> 40 </int>
+			<array  len="3" shared="false">
+				<int> 32 </int>
+				<int> 35 </int>
+				<int> 32 </int>
 			</array>
 			<string> "times" </string>
-			<real_array  len="4"> 				0, 0.5, 0.6, 0.7 </real_array>
+			<real_array  len="3"> 				0, 0.3, 0.6 </real_array>
 		</dictionary>
 
 	</resource>
@@ -71,8 +92,8 @@
 
 	</resource>
 	<resource type="Animation" path="local://6">
-		<string name="resource/name"> "афддштпfalling" </string>
-		<real name="length"> 0.1 </real>
+		<string name="resource/name"> "idle_weapon" </string>
+		<real name="length"> 0.7 </real>
 		<bool name="loop"> True </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
@@ -80,15 +101,18 @@
 		<int name="tracks/0/interp"> 1 </int>
 		<dictionary name="tracks/0/keys" shared="false">
 			<string> "cont" </string>
-			<bool> False </bool>
+			<bool> True </bool>
 			<string> "transitions" </string>
-			<real_array  len="1"> 				1 </real_array>
+			<real_array  len="4"> 				1, 1, 1, 1 </real_array>
 			<string> "values" </string>
-			<array  len="1" shared="false">
-				<int> 30 </int>
+			<array  len="4" shared="false">
+				<int> 40 </int>
+				<int> 45 </int>
+				<int> 41 </int>
+				<int> 40 </int>
 			</array>
 			<string> "times" </string>
-			<real_array  len="1"> 				0 </real_array>
+			<real_array  len="4"> 				0, 0.5, 0.6, 0.7 </real_array>
 		</dictionary>
 
 	</resource>
@@ -123,6 +147,28 @@
 
 	</resource>
 	<resource type="Animation" path="local://8">
+		<string name="resource/name"> "афддштпfalling" </string>
+		<real name="length"> 0.1 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "sprite:frame" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "transitions" </string>
+			<real_array  len="1"> 				1 </real_array>
+			<string> "values" </string>
+			<array  len="1" shared="false">
+				<int> 30 </int>
+			</array>
+			<string> "times" </string>
+			<real_array  len="1"> 				0 </real_array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://9">
 		<string name="resource/name"> "jumping" </string>
 		<real name="length"> 1 </real>
 		<bool name="loop"> False </bool>
@@ -153,7 +199,7 @@
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "names" </string>
-			<string_array  len="188">
+			<string_array  len="190">
 				<string> "player" </string>
 				<string> "RigidBody2D" </string>
 				<string> "visibility/visible" </string>
@@ -252,10 +298,11 @@
 				<string> "playback/default_blend_time" </string>
 				<string> "root/root" </string>
 				<string> "anims/atack_1" </string>
-				<string> "anims/idle_weapon" </string>
+				<string> "anims/atack_2" </string>
 				<string> "anims/idle" </string>
-				<string> "anims/афддштпfalling" </string>
+				<string> "anims/idle_weapon" </string>
 				<string> "anims/run" </string>
+				<string> "anims/афддштпfalling" </string>
 				<string> "anims/jumping" </string>
 				<string> "playback/active" </string>
 				<string> "playback/speed" </string>
@@ -342,15 +389,16 @@
 				<string> "flat" </string>
 				<string> "clip_text" </string>
 				<string> "pause" </string>
+				<string> "timer" </string>
 			</string_array>
 			<string> "version" </string>
 			<int> 1 </int>
 			<string> "conn_count" </string>
 			<int> 0 </int>
 			<string> "node_count" </string>
-			<int> 16 </int>
+			<int> 17 </int>
 			<string> "variants" </string>
-			<array  len="87" shared="false">
+			<array  len="88" shared="false">
 				<bool> True </bool>
 				<real> 1 </real>
 				<vector2> 0, 0 </vector2>
@@ -383,9 +431,9 @@
 							<string> "pixel_snap" </string>
 							<bool> False </bool>
 							<string> "zoom" </string>
-							<real> 1.227738 </real>
+							<real> 2.050546 </real>
 							<string> "ofs" </string>
-							<vector2> 32.9218, 171.107 </vector2>
+							<vector2> -234.693, -91.7823 </vector2>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -476,7 +524,7 @@
 				</dictionary>
 				<resource  resource_type="Texture" path="res://source.*">  </resource>
 				<int> 8 </int>
-				<int> 30 </int>
+				<int> 40 </int>
 				<color> 1, 1, 1, 1 </color>
 				<rect2> 0, 0, 0, 0 </rect2>
 				<real> 0.36 </real>
@@ -502,6 +550,7 @@
 				<resource  resource_type="Animation" path="local://6">  </resource>
 				<resource  resource_type="Animation" path="local://7">  </resource>
 				<resource  resource_type="Animation" path="local://8">  </resource>
+				<resource  resource_type="Animation" path="local://9">  </resource>
 				<array  len="0" shared="false">
 				</array>
 				<string> "" </string>
@@ -548,7 +597,7 @@
 				<string> "pause" </string>
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="690"> 				-1, -1, 1, 0, -1, 28, 2, 0, 3, 1, 4, 1, 5, 0, 6, 2, 7, 3, 8, 4, 9, 5, 10, 6, 11, 7, 12, 8, 13, 9, 14, 10, 15, 8, 16, 5, 17, 11, 18, 3, 19, 3, 20, 0, 21, 8, 22, 12, 23, 8, 24, 0, 25, 0, 26, 2, 27, 3, 28, 13, 29, 14, 0, 0, 0, 31, 30, -1, 18, 2, 0, 3, 1, 4, 1, 5, 0, 6, 2, 7, 3, 8, 4, 32, 15, 33, 0, 34, 2, 35, 8, 36, 8, 37, 16, 38, 16, 39, 17, 40, 18, 41, 8, 42, 19, 0, 1, 0, 44, 43, -1, 54, 2, 0, 3, 1, 4, 20, 5, 0, 6, 21, 7, 22, 8, 4, 45, 23, 46, 24, 47, 1, 48, 3, 49, 24, 50, 8, 51, 2, 52, 2, 53, 8, 54, 25, 55, 26, 56, 3, 57, 27, 58, 28, 59, 3, 60, 3, 61, 3, 62, 29, 63, 3, 64, 3, 65, 3, 66, 30, 67, 30, 68, 3, 69, 3, 70, 3, 71, 3, 72, 1, 73, 3, 74, 3, 75, 3, 76, 3, 77, 3, 78, 3, 79, 3, 80, 3, 81, 3, 82, 5, 83, 3, 84, 18, 85, 1, 86, 31, 87, 1, 88, 32, 89, 1, 90, 33, 91, 34, 0, 0, 0, 93, 92, -1, 13, 94, 35, 95, 3, 96, 36, 97, 37, 98, 38, 99, 39, 100, 40, 101, 41, 102, 42, 103, 0, 104, 1, 105, 43, 106, 44, 0, 0, 0, 108, 107, -1, 21, 2, 0, 3, 1, 4, 1, 5, 0, 6, 45, 7, 3, 8, 46, 33, 0, 109, 0, 110, 3, 111, 4, 112, 47, 113, 47, 114, 48, 115, 48, 116, 0, 117, 0, 118, 49, 119, 49, 120, 49, 121, 49, 0, 0, 0, 123, 122, -1, 3, 124, 1, 125, 8, 126, 8, 0, 0, 0, 128, 127, -1, 7, 2, 0, 3, 1, 4, 1, 5, 0, 6, 50, 7, 3, 8, 4, 0, 0, 0, 129, 129, -1, 9, 2, 0, 3, 1, 4, 1, 5, 0, 6, 51, 7, 3, 8, 52, 130, 6, 131, 8, 0, 0, 0, 132, 132, -1, 9, 2, 0, 3, 1, 4, 1, 5, 0, 6, 53, 7, 3, 8, 54, 133, 55, 134, 56, 0, 0, 0, 136, 135, -1, 4, 137, 35, 34, 2, 138, 3, 139, 4, 0, 9, 0, 141, 140, -1, 13, 2, 0, 3, 1, 4, 1, 5, 0, 6, 57, 7, 3, 8, 58, 142, 59, 143, 60, 144, 60, 145, 8, 146, 61, 147, 35, 0, 9, 0, 141, 148, -1, 13, 2, 0, 3, 1, 4, 1, 5, 0, 6, 62, 7, 3, 8, 63, 142, 64, 143, 60, 144, 60, 145, 8, 146, 65, 147, 35, 0, 9, 0, 150, 149, -1, 18, 2, 8, 3, 1, 4, 1, 5, 0, 151, 66, 152, 67, 153, 68, 154, 69, 155, 70, 156, 70, 157, 70, 158, 70, 159, 8, 160, 0, 161, 5, 162, 5, 163, 1, 164, 8, 0, 12, 0, 166, 165, -1, 29, 2, 0, 3, 1, 4, 1, 5, 0, 151, 71, 152, 72, 153, 73, 154, 74, 155, 70, 156, 70, 157, 70, 158, 70, 159, 0, 160, 0, 161, 5, 163, 1, 167, 3, 168, 1, 169, 1, 170, 1, 171, 3, 172, 8, 173, 8, 165, 75, 174, 35, 175, 35, 176, 8, 177, 8, 178, 76, 0, 12, 0, 180, 179, -1, 25, 2, 0, 3, 1, 4, 1, 5, 0, 151, 77, 152, 78, 153, 79, 154, 80, 155, 70, 156, 70, 157, 70, 158, 70, 159, 8, 160, 0, 161, 5, 162, 5, 163, 1, 181, 8, 182, 8, 183, 8, 165, 81, 184, 60, 185, 8, 186, 8, 174, 35, 0, 0, 0, 180, 187, -1, 25, 2, 8, 3, 1, 4, 1, 5, 0, 151, 82, 152, 83, 153, 84, 154, 85, 155, 70, 156, 70, 157, 70, 158, 70, 159, 8, 160, 0, 161, 5, 162, 5, 163, 1, 181, 8, 182, 8, 183, 8, 165, 86, 184, 60, 185, 8, 186, 8, 174, 35, 0 </int_array>
+			<int_array  len="705"> 				-1, -1, 1, 0, -1, 28, 2, 0, 3, 1, 4, 1, 5, 0, 6, 2, 7, 3, 8, 4, 9, 5, 10, 6, 11, 7, 12, 8, 13, 9, 14, 10, 15, 8, 16, 5, 17, 11, 18, 3, 19, 3, 20, 0, 21, 8, 22, 12, 23, 8, 24, 0, 25, 0, 26, 2, 27, 3, 28, 13, 29, 14, 0, 0, 0, 31, 30, -1, 18, 2, 0, 3, 1, 4, 1, 5, 0, 6, 2, 7, 3, 8, 4, 32, 15, 33, 0, 34, 2, 35, 8, 36, 8, 37, 16, 38, 16, 39, 17, 40, 18, 41, 8, 42, 19, 0, 1, 0, 44, 43, -1, 54, 2, 0, 3, 1, 4, 20, 5, 0, 6, 21, 7, 22, 8, 4, 45, 23, 46, 24, 47, 1, 48, 3, 49, 24, 50, 8, 51, 2, 52, 2, 53, 8, 54, 25, 55, 26, 56, 3, 57, 27, 58, 28, 59, 3, 60, 3, 61, 3, 62, 29, 63, 3, 64, 3, 65, 3, 66, 30, 67, 30, 68, 3, 69, 3, 70, 3, 71, 3, 72, 1, 73, 3, 74, 3, 75, 3, 76, 3, 77, 3, 78, 3, 79, 3, 80, 3, 81, 3, 82, 5, 83, 3, 84, 18, 85, 1, 86, 31, 87, 1, 88, 32, 89, 1, 90, 33, 91, 34, 0, 0, 0, 93, 92, -1, 14, 94, 35, 95, 3, 96, 36, 97, 37, 98, 38, 99, 39, 100, 40, 101, 41, 102, 42, 103, 43, 104, 0, 105, 1, 106, 44, 107, 45, 0, 0, 0, 109, 108, -1, 21, 2, 0, 3, 1, 4, 1, 5, 0, 6, 46, 7, 3, 8, 47, 33, 0, 110, 0, 111, 3, 112, 4, 113, 48, 114, 48, 115, 49, 116, 49, 117, 0, 118, 0, 119, 50, 120, 50, 121, 50, 122, 50, 0, 0, 0, 124, 123, -1, 3, 125, 1, 126, 8, 127, 8, 0, 0, 0, 129, 128, -1, 7, 2, 0, 3, 1, 4, 1, 5, 0, 6, 51, 7, 3, 8, 4, 0, 0, 0, 130, 130, -1, 9, 2, 0, 3, 1, 4, 1, 5, 0, 6, 52, 7, 3, 8, 53, 131, 6, 132, 8, 0, 0, 0, 133, 133, -1, 9, 2, 0, 3, 1, 4, 1, 5, 0, 6, 54, 7, 3, 8, 55, 134, 56, 135, 57, 0, 0, 0, 137, 136, -1, 4, 138, 35, 34, 2, 139, 3, 140, 4, 0, 9, 0, 142, 141, -1, 13, 2, 0, 3, 1, 4, 1, 5, 0, 6, 58, 7, 3, 8, 59, 143, 60, 144, 61, 145, 61, 146, 8, 147, 62, 148, 35, 0, 9, 0, 142, 149, -1, 13, 2, 0, 3, 1, 4, 1, 5, 0, 6, 63, 7, 3, 8, 64, 143, 65, 144, 61, 145, 61, 146, 8, 147, 66, 148, 35, 0, 9, 0, 151, 150, -1, 18, 2, 8, 3, 1, 4, 1, 5, 0, 152, 67, 153, 68, 154, 69, 155, 70, 156, 71, 157, 71, 158, 71, 159, 71, 160, 8, 161, 0, 162, 5, 163, 5, 164, 1, 165, 8, 0, 12, 0, 167, 166, -1, 29, 2, 0, 3, 1, 4, 1, 5, 0, 152, 72, 153, 73, 154, 74, 155, 75, 156, 71, 157, 71, 158, 71, 159, 71, 160, 0, 161, 0, 162, 5, 164, 1, 168, 3, 169, 1, 170, 1, 171, 1, 172, 3, 173, 8, 174, 8, 166, 76, 175, 35, 176, 35, 177, 8, 178, 8, 179, 77, 0, 12, 0, 181, 180, -1, 25, 2, 0, 3, 1, 4, 1, 5, 0, 152, 78, 153, 79, 154, 80, 155, 81, 156, 71, 157, 71, 158, 71, 159, 71, 160, 8, 161, 0, 162, 5, 163, 5, 164, 1, 182, 8, 183, 8, 184, 8, 166, 82, 185, 61, 186, 8, 187, 8, 175, 35, 0, 0, 0, 181, 188, -1, 25, 2, 8, 3, 1, 4, 1, 5, 0, 152, 83, 153, 84, 154, 85, 155, 86, 156, 71, 157, 71, 158, 71, 159, 71, 160, 8, 161, 0, 162, 5, 163, 5, 164, 1, 182, 8, 183, 8, 184, 8, 166, 87, 185, 61, 186, 8, 187, 8, 175, 35, 0, 0, 0, 124, 189, -1, 3, 125, 1, 126, 8, 127, 8, 0 </int_array>
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 		</dictionary>

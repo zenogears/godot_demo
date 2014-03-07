@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="7" version="1.0" version_name="Godot Engine v1.0.3917-beta1">
-	<ext_resource path="res://scroll_bg_cloud_1.*" type="Texture"></ext_resource>
-	<ext_resource path="res://scroll_bg_sky.*" type="Texture"></ext_resource>
-	<ext_resource path="res://scroll_bg_cloud_3.*" type="Texture"></ext_resource>
-	<ext_resource path="res://scroll_bg_fg_1.*" type="Texture"></ext_resource>
 	<ext_resource path="res://scroll_bg_fg_2.*" type="Texture"></ext_resource>
 	<ext_resource path="res://scroll_bg_cloud_2.*" type="Texture"></ext_resource>
+	<ext_resource path="res://scroll_bg_fg_1.*" type="Texture"></ext_resource>
+	<ext_resource path="res://scroll_bg_sky.*" type="Texture"></ext_resource>
+	<ext_resource path="res://scroll_bg_cloud_3.*" type="Texture"></ext_resource>
+	<ext_resource path="res://scroll_bg_cloud_1.*" type="Texture"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "names" </string>
-			<string_array  len="42">
+			<string_array  len="43">
 				<string> "parallax_bg" </string>
 				<string> "ParallaxBackground" </string>
 				<string> "layer" </string>
@@ -44,23 +44,24 @@
 				<string> "modulate" </string>
 				<string> "region" </string>
 				<string> "region_rect" </string>
-				<string> "clouds" </string>
+				<string> "mount_ 2" </string>
+				<string> "clouds 2" </string>
 				<string> "Sprite 2" </string>
 				<string> "Sprite 3" </string>
 				<string> "Sprite 4" </string>
 				<string> "Sprite 5" </string>
 				<string> "Sprite 6" </string>
-				<string> "mount_ 2" </string>
 				<string> "mount_1" </string>
+				<string> "clouds" </string>
 			</string_array>
 			<string> "version" </string>
 			<int> 1 </int>
 			<string> "conn_count" </string>
 			<int> 0 </int>
 			<string> "node_count" </string>
-			<int> 14 </int>
+			<int> 21 </int>
 			<string> "variants" </string>
-			<array  len="34" shared="false">
+			<array  len="41" shared="false">
 				<int> -1 </int>
 				<vector2> 0, 0 </vector2>
 				<real> 0 </real>
@@ -73,9 +74,9 @@
 							<string> "pixel_snap" </string>
 							<bool> False </bool>
 							<string> "zoom" </string>
-							<real> 0.598737 </real>
+							<real> 0.291989 </real>
 							<string> "ofs" </string>
-							<vector2> -613, -325.215 </vector2>
+							<vector2> -698.449, -596.769 </vector2>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -175,27 +176,34 @@
 				<int> 0 </int>
 				<color> 1, 1, 1, 1 </color>
 				<rect2> 0, 0, 0, 0 </rect2>
-				<vector2> 0.1, 1 </vector2>
-				<vector2> 118.932, 82.0219 </vector2>
-				<resource  resource_type="Texture" path="res://scroll_bg_cloud_1.*">  </resource>
-				<vector2> 674.63, 157.892 </vector2>
-				<vector2> 278.874, 188.65 </vector2>
-				<resource  resource_type="Texture" path="res://scroll_bg_cloud_2.*">  </resource>
-				<vector2> 455.221, 75.8702 </vector2>
-				<vector2> 82.0219, 174.296 </vector2>
-				<resource  resource_type="Texture" path="res://scroll_bg_cloud_3.*">  </resource>
-				<vector2> 686.933, 61.5164 </vector2>
 				<vector2> 0.2, 1 </vector2>
-				<vector2> 539.36, 412.366 </vector2>
-				<vector2> 1.05219, 1.50236 </vector2>
+				<vector2> 421.411, 330.171 </vector2>
+				<vector2> 0.968173, 2.14451 </vector2>
 				<resource  resource_type="Texture" path="res://scroll_bg_fg_2.*">  </resource>
+				<vector2> 0.15, 1 </vector2>
+				<vector2> 612.101, 184.765 </vector2>
+				<resource  resource_type="Texture" path="res://scroll_bg_cloud_1.*">  </resource>
+				<vector2> 482.842, 322.282 </vector2>
+				<vector2> 189.83, 284.544 </vector2>
+				<resource  resource_type="Texture" path="res://scroll_bg_cloud_2.*">  </resource>
+				<vector2> 95.6184, 120.392 </vector2>
+				<vector2> 705.333, 57.8533 </vector2>
+				<resource  resource_type="Texture" path="res://scroll_bg_cloud_3.*">  </resource>
+				<vector2> 258.835, 328.65 </vector2>
 				<vector2> 0.4, 1 </vector2>
-				<vector2> 524.708, 395.209 </vector2>
-				<vector2> 1.01957, 1.62632 </vector2>
+				<vector2> 552.106, 328.426 </vector2>
+				<vector2> 1.14666, 2.14806 </vector2>
 				<resource  resource_type="Texture" path="res://scroll_bg_fg_1.*">  </resource>
+				<vector2> 0.1, 1 </vector2>
+				<vector2> 166.879, 23.8005 </vector2>
+				<vector2> 633.533, 264.06 </vector2>
+				<vector2> 388.467, 229.747 </vector2>
+				<vector2> 451.796, 48.4719 </vector2>
+				<vector2> 280.66, 164.022 </vector2>
+				<vector2> 686.933, 136.862 </vector2>
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="514"> 				-1, -1, 1, 0, -1, 10, 2, 0, 3, 1, 4, 2, 5, 3, 6, 1, 7, 1, 8, 3, 9, 1, 10, 1, 11, 4, 0, 0, 0, 13, 12, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 3, 22, 7, 0, 1, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 8, 19, 2, 20, 9, 24, 10, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 0, 0, 13, 34, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 16, 22, 7, 0, 3, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 17, 19, 2, 20, 3, 24, 18, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 3, 0, 23, 35, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 19, 19, 2, 20, 3, 24, 18, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 3, 0, 23, 36, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 20, 19, 2, 20, 3, 24, 21, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 3, 0, 23, 37, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 22, 19, 2, 20, 3, 24, 21, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 3, 0, 23, 38, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 23, 19, 2, 20, 3, 24, 24, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 3, 0, 23, 39, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 25, 19, 2, 20, 3, 24, 24, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 0, 0, 13, 40, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 26, 22, 7, 0, 10, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 27, 19, 2, 20, 28, 24, 29, 25, 5, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 0, 0, 13, 41, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 30, 22, 7, 0, 12, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 31, 19, 2, 20, 32, 24, 33, 25, 5, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0 </int_array>
+			<int_array  len="797"> 				-1, -1, 1, 0, -1, 10, 2, 0, 3, 1, 4, 2, 5, 3, 6, 1, 7, 1, 8, 3, 9, 1, 10, 1, 11, 4, 0, 0, 0, 13, 12, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 3, 22, 7, 0, 1, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 8, 19, 2, 20, 9, 24, 10, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 0, 0, 13, 34, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 16, 22, 7, 0, 3, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 17, 19, 2, 20, 18, 24, 19, 25, 5, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 0, 0, 13, 35, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 20, 22, 7, 0, 5, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 21, 19, 2, 20, 3, 24, 22, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 5, 0, 23, 36, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 23, 19, 2, 20, 3, 24, 22, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 5, 0, 23, 37, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 24, 19, 2, 20, 3, 24, 25, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 5, 0, 23, 38, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 26, 19, 2, 20, 3, 24, 25, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 5, 0, 23, 39, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 27, 19, 2, 20, 3, 24, 28, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 5, 0, 23, 40, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 29, 19, 2, 20, 3, 24, 28, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 0, 0, 13, 41, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 30, 22, 7, 0, 12, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 31, 19, 2, 20, 32, 24, 33, 25, 5, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 0, 0, 13, 42, -1, 9, 14, 5, 15, 6, 16, 6, 17, 5, 18, 1, 19, 2, 20, 3, 21, 34, 22, 7, 0, 14, 0, 23, 23, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 35, 19, 2, 20, 3, 24, 22, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 14, 0, 23, 36, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 36, 19, 2, 20, 3, 24, 22, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 14, 0, 23, 37, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 37, 19, 2, 20, 3, 24, 25, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 14, 0, 23, 38, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 38, 19, 2, 20, 3, 24, 25, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 14, 0, 23, 39, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 39, 19, 2, 20, 3, 24, 28, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0, 14, 0, 23, 40, -1, 18, 14, 5, 15, 6, 16, 6, 17, 5, 18, 40, 19, 2, 20, 3, 24, 28, 25, 11, 3, 1, 26, 11, 27, 11, 28, 12, 29, 12, 30, 13, 31, 14, 32, 11, 33, 15, 0 </int_array>
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 		</dictionary>
